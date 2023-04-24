@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+.thread-dark{
+  background-color: #282c34;
+  color: white;
+  position: relative;
+  width: 1000px;
+  box-shadow: 10px 10px 10px gray;
+}
+.table-responsive1{
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 500px;
+ overflow-x: scroll;
+}
+@media (max-width:1000px){
+  .table-responsive1{
+    width: 90%;
+  }
+}
+@media (max-width:700px){
+  .table-responsive1{
+    width: 100%;
+  }
+}
+
+.state{
+  background-color: green;
+}
